@@ -14,7 +14,7 @@ This project applied the principles of *Systematic Trading* by Robert Carver to 
 
 ---
 
-## Getting Started / Usage (Optional)
+## Getting Started / Usage 
 1. Install required libraries:
    ```bash
    pip install yfinance pandas numpy scikit-learn
