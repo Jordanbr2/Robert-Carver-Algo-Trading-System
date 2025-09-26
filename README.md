@@ -1,20 +1,27 @@
 # Mean Reversion Algo Trading Strategy
 
 ## Brief Description / Motivation
-This project applied the principles of *Systematic Trading* by Robert Carver to test different rules based on multiple hypotheses through diversified rule-based strategies. Moreover, it uses bootstrapping and average correlation to determine the forecast weights and diversification number—key concepts of the book. At the end, all rules are combined to form a working strategy with a positive sharp ratio.
+This project applies the principles of *Systematic Trading* by Robert Carver to test different rules based on multiple hypotheses, aiming to achieve a diversified rule-based strategy. It also uses **bootstrapping** and **average correlation** to determine forecast weights and the diversification number, reducing the risk of overfitting. The approach is fully mechanical and backtested over historical market data. Finally, all rules are combined to form a working strategy with a positive Sharpe ratio.
 
 ---
 
 ## Technologies / Tools Used
-- Python  
-- yfinance → Market data  
-- pandas → Data Manipulation  
-- numpy → Numerical Calculations  
-- resample (from sklearn.utils)  
+- **Python**  
+- **Python Libraries:**  
+  - `yfinance` → Market data  
+  - `pandas` → Data manipulation  
+  - `numpy` → Numerical calculations  
+  - `resample` (`sklearn.utils`) → Bootstrapping
 
 ---
 
-## Getting Started / Usage 
+## Getting Started / Usage
 1. Install required libraries:
    ```bash
    pip install yfinance pandas numpy scikit-learn
+
+---
+
+## Results / Performance
+![image alt](https://github.com/Jordanbr2/Robert-Carver-Algo-Trading-System/blob/d43dbbb80b943ec06c0a9f387ab09559d82f63de/Combined%20Forecast.jpg)
+![image alt](https://github.com/Jordanbr2/Robert-Carver-Algo-Trading-System/blob/d43dbbb80b943ec06c0a9f387ab09559d82f63de/Rules%20SR.jpg)
