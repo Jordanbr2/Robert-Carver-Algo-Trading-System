@@ -1,5 +1,4 @@
-# Robert Carver Algo Trading System
-
+# Robert Carver–Inspired Algo Trading System | Python
 ## Brief Description / Motivation
 This project applies the principles of *Systematic Trading* by Robert Carver using the assistance of AI tools to code different rules based on multiple hypotheses, aiming to achieve a diversified rule-based strategy. It also uses **bootstrapping** and **average correlation** to determine forecast weights and the diversification number, reducing the risk of overfitting. The approach is fully mechanical and backtested over historical market data. Finally, all rules are combined to form a working strategy with a positive Sharpe ratio.
 
